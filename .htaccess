@@ -1,0 +1,11 @@
+Options +FollowSymLinks
+Options -Indexes
+
+ErrorDocument 403 /home.php
+ErrorDocument 404 /home.php
+
+# Turn on the RewriteEngine
+
+RewriteEngine On
+RewriteCond $1 !^(home\.php|assets|robots\.txt)
+RewriteRule ^(.*)$ /home.php/$1 [L]
