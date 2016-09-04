@@ -45,7 +45,7 @@
             <div class="panel-heading"> 
     
                <div class="col-lg-offset-1 col-lg-10">
-                <img src=".\assets\images\login.jpg" alt="user-img" class="img-circle img-responsive" height="5px">
+                <img src="./assets/images/login.jpg" alt="user-img" class="img-circle img-responsive" height="5px">
                 </div>
       
  
@@ -82,6 +82,7 @@
                 
                 <div class="form-group text-center m-t-40">
                     <div class="col-xs-12">
+                        <center><p class="text-danger"><?= !empty($errors) ? $errors[0] : ''; ?></p></center>
                         <button class="btn btn-pink btn-block text-uppercase waves-effect waves-light" type="submit">Log In</button>
                     </div>
                 </div>
