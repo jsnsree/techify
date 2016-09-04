@@ -36,7 +36,7 @@
 
                     <!-- Logo container-->
                     <div class="logo">
-                        <a href="#" class="logo"><span><i class="md md-school"></i> techify</span></a>
+                        <a href="/" class="logo"><span><i class="md md-school"></i> techify</span></a>
                     </div>
                     <!-- End Logo container-->
 
