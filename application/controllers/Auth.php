@@ -26,6 +26,14 @@ class Auth extends CI_Controller {
 		
 	}
 	
+	public function logout(){
+		
+		$this->aauth->logout();
+		
+		redirect('/');
+		
+	}
+	
 	public function do_login(){
 		
 		$username = $this->input->post('username');
