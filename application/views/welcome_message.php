@@ -439,6 +439,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-6">
+                                © 2016. All rights reserved. Page rendered in <strong>{elapsed_time}</strong> seconds.
                             </div>
                             <div class="col-xs-6">
                                 <ul class="pull-right list-inline m-b-0">
