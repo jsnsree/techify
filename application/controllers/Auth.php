@@ -4,7 +4,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Auth extends CI_Controller {
 
 	 
-	public function redirect_on_login() {
+	public function redirect_if_logged_in() {
 		
 		if($this->aauth->is_loggedin()){
 			
@@ -21,6 +21,8 @@ class Auth extends CI_Controller {
 	}
 	
 	public function login($errors = array()){
+		
+		$this->redirect_if_logged_in();
 		
 		$this->load->view('auth/login_form.php', $errors);
 		
