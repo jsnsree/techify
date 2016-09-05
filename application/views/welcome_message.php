@@ -180,7 +180,7 @@
 
                 </div>
             </div>
-<!-- sub nav with tabs -->
+<!-- sub nav starting with tabs -->
             <div class="col-lg-offset-3 col-lg-6">
                         <ul class="nav nav-tabs tabs" style="width: 100%;">
                             <li class="active tab" style="width: 25%;">
@@ -205,6 +205,7 @@
                         <div class="indicator" style="right: 424px; left: 0px;"></div></</ul>
                         
                     </div>
+              <!-- sub nav ending with tabs -->
         </header>
         <!-- End Navigation Bar-->
 
