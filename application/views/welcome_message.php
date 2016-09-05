@@ -186,19 +186,19 @@
                             <li class="active tab" style="width: 25%;">
                                 <a href="#home-2" data-toggle="tab" aria-expanded="false" class="active">
                                     <span class="visible-xs"><i class="fa fa-home"></i></span>
-                                    <span class="hidden-xs">Home</span>
+                                    <span class="hidden-xs">What's new</span>
                                 </a>
                             </li>
                             <li class="tab" style="width: 25%;">
                                 <a href="#profile-2" data-toggle="tab" aria-expanded="false">
                                     <span class="visible-xs"><i class="fa fa-user"></i></span>
-                                    <span class="hidden-xs">Profile</span>
+                                    <span class="hidden-xs">Queries</span>
                                 </a>
                             </li>
                             <li class="tab" style="width: 25%;">
                                 <a href="#messages-2" data-toggle="tab" aria-expanded="true">
                                     <span class="visible-xs"><i class="fa fa-envelope-o"></i></span>
-                                    <span class="hidden-xs">Messages</span>
+                                    <span class="hidden-xs">featured</span>
                                 </a>
                             </li>
                            
